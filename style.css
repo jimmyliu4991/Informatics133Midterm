@@ -1,0 +1,232 @@
+body {
+	background-image: url('http://kingofwallpapers.com/blue-background/blue-background-018.jpg');
+	color: #000350;
+	font-size: 80%;
+	font-family: Arial;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.body{
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: gray;
+	
+}
+
+a:hover, a:active{
+	color:gray;
+	background-color: white;
+}
+.mainheader img{
+	width:30% ;
+	height:auto;
+	margin: 2% 0;
+}
+
+.mainheader nav{
+	background-color: aqua;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+.mainheader nav ul{
+	list-style:none;
+	margin: 0 auto;
+	
+}
+.mainheader nav ul li{
+	float: left;
+	display: inline;
+}
+.mainheader nav a:link, .mainheader nav a:visited {
+	color: black;
+	display:inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav a.active a:link, .mainheader nav.active a:visited {
+	background-color: gray;
+	text-shadow: none;
+}
+
+.mainheader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+.mainContent{
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+
+}
+.content{
+	width: 70%;
+	float:left;
+		
+}
+.topContent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 4%;
+	margin-top: 2%;
+}
+.bottomContent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 4%;
+	margin-top: 2%;
+}
+.top-sidebar {
+	width: 21%;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	margin: 1.5% 0 1.5% 3%;
+	padding-left:1%;
+
+	
+}
+.middle-sidebar {
+	width: 21%;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	margin-left: 3%;
+	margin-bottom: 1.5%;
+	padding-left: 1%;
+
+}
+.bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	margin-left:3%;
+	padding-left: 1%;
+	
+}
+.mainFooter{
+	width: 100%; 
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: aqua;
+	margin: 1% 0;
+}
+.mainFooter p{
+	width: 92%;
+	margin: 10px auto;
+	color: black;
+	
+}
+.mainContact{
+	width: 100%;
+	display:inline-block;
+	margin:auto;
+
+}
+.info{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 1% 2%;
+	margin-top: 2%;
+	text-align:center;
+}
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+	
+	.body{
+
+		width: 90%;
+		font-size:90%;
+
+}
+	.mainheader img{
+		width:100%;
+
+	}
+	.mainheader nav{
+		height: 160px;
+
+	}
+
+	.mainheader nav ul{
+		padding-left:0;
+		
+	}
+	.mainheader nav ul li{
+		width:100%;
+		text-align:center;
+	}
+	.mainheader nav a:link, .mainheader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+	}
+	.mainheader nav a:hover, .mainheader nav a:active,
+	.mainheader nav a.active a:link, .mainheader nav.active a:visited {
+		background-color: gray;
+		text-shadow: none;
+		display:block;
+	}
+
+	.content{
+		width: 100%;
+		float:left;
+		margin-top: 2%;
+	}
+	.post-info {
+		display:none;
+	}
+	.topContent{
+		background-color: #FFF;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		padding: 3% 4%;
+		margin-top: 2%;
+		margin-bottom:3%;
+	}
+	.bottomContent{
+		margin-top:3%;
+	}
+	
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+		width: 96%;
+		margin: 1.5% 0 1.5% 0%;
+		padding:1% 2%;
+
+		
+	}
+
+	
+	
+}
